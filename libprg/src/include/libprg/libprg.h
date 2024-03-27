@@ -20,9 +20,9 @@ lista_t* criarListaLinear();
 void inserirElemento(lista_t *lista, int elemento);
 int removerElemento(lista_t *lista, int elemento);
 
-int buscaLinear (lista_t * lista, int valor);
-int buscaBináriaiterativa (lista_t * lista, int valor);
-int buscaBinária recursiva (lista_t * lista, int valor, int inicio, int fim);
+//int buscaLinear (lista_t * lista, int valor);
+//int buscaBináriaiterativa (lista_t * lista, int valor);
+//int buscaBinária recursiva (lista_t * lista, int valor, int inicio, int fim);
 
 
 

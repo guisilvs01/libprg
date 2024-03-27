@@ -17,40 +17,40 @@ lista_t * criarListaLinear() {
     return lista;
 }
 
-void inserirElemento(ListaLinear *lista, int elemento) {
-    if (lista->size < MAX_SIZE) {
-        lista->array[lista->size] = elemento;
-        lista->size++;
-    } else {
-        printf("Lista cheia, impossível inserir elemento.\n");
-    }
-}
-
-void imprimirLista(ListaLinear *lista) {
-    printf("Lista: ");
-    for (int i = 0; i < lista->size; i++) {
-        printf("%d ", lista->array[i]);
-    }
-    printf("\n");
-}
-
-void liberarLista(ListaLinear *lista) {
-    free(lista->array);
-    free(lista);
-}
-
-int main() {
-    ListaLinear *lista = criarListaLinear();
-
-    inserirElemento(lista, 5);
-    inserirElemento(lista, 10);
-    inserirElemento(lista, 3);
-
-    imprimirLista(lista);
-
-    liberarLista(lista);
-
-    return 0;
-}
-
+//void inserirElemento(ListaLinear *lista, int elemento) {
+//    if (lista->size < MAX_SIZE) {
+//        lista->array[lista->size] = elemento;
+//        lista->size++;
+//    } else {
+//        printf("Lista cheia, impossível inserir elemento.\n");
+//    }
+//}
+//
+//void imprimirLista(ListaLinear *lista) {
+//    printf("Lista: ");
+//    for (int i = 0; i < lista->size; i++) {
+//        printf("%d ", lista->array[i]);
+//    }
+//    printf("\n");
+//}
+//
+//void liberarLista(ListaLinear *lista) {
+//    free(lista->array);
+//    free(lista);
+//}
+//
+//int main() {
+//    ListaLinear *lista = criarListaLinear();
+//
+//    inserirElemento(lista, 5);
+//    inserirElemento(lista, 10);
+//    inserirElemento(lista, 3);
+//
+//    imprimirLista(lista);
+//
+//    liberarLista(lista);
+//
+//    return 0;
+//}
+//
 
