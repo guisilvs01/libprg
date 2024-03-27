@@ -17,15 +17,15 @@ lista_t * criarListaLinear() {
     return lista;
 }
 
-//void inserirElemento(ListaLinear *lista, int elemento) {
-//    if (lista->size < MAX_SIZE) {
-//        lista->array[lista->size] = elemento;
-//        lista->size++;
-//    } else {
-//        printf("Lista cheia, impossível inserir elemento.\n");
-//    }
-//}
-//
+void inserirElemento(lista_t *lista, int elemento) {
+    if (lista->size < MAX_SIZE) {
+        lista->array[lista->size] = elemento;
+        lista->size++;
+    } else {
+        printf("Lista cheia, impossível inserir elemento.\n");
+    }
+}
+
 //void imprimirLista(ListaLinear *lista) {
 //    printf("Lista: ");
 //    for (int i = 0; i < lista->size; i++) {
