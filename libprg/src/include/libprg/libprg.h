@@ -14,7 +14,7 @@ result_t compute(double a, double b, operation_t op);
 
 // Lista
 
-typedef struct ListaLinear lista_t;
+typedef struct lista lista_t;
 
 lista_t* criarListaLinear();
 void inserirElemento(lista_t *lista, int elemento);

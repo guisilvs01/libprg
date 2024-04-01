@@ -3,7 +3,7 @@
 
 #define MAX_SIZE 10
 
-typedef struct ListaLinear{
+typedef struct lista{
     int *array;
     int size; //index do array;
     int capacidade;
@@ -32,7 +32,7 @@ int* getElementos(lista_t *lista){
 
 }
 
-//void imprimirLista(ListaLinear *lista) {
+//void imprimirLista(lista *lista) {
 //    printf("Lista: ");
 //    for (int i = 0; i < lista->size; i++) {
 //        printf("%d ", lista->array[i]);
@@ -40,13 +40,13 @@ int* getElementos(lista_t *lista){
 //    printf("\n");
 //}
 //
-//void liberarLista(ListaLinear *lista) {
+//void liberarLista(lista *lista) {
 //    free(lista->array);
 //    free(lista);
 //}
 //
 //int main() {
-//    ListaLinear *lista = criarListaLinear();
+//    lista *lista = criarListaLinear();
 //
 //    inserirElemento(lista, 5);
 //    inserirElemento(lista, 10);
