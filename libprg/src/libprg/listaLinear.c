@@ -26,10 +26,15 @@ void inserirElemento(lista_t *lista, int elemento) {
     }
 }
 
-int* getElementos(lista_t *lista){
+int* getElementos(lista_t *joao){
 
-    return lista->array;
+    return joao->array;
 
+}
+
+int getSize (lista_t *lista){
+
+    return lista->size;
 }
 
 //void imprimirLista(lista *lista) {
