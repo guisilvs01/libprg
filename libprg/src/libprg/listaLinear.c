@@ -37,14 +37,7 @@ int getSize (lista_t *lista){
     return lista->size;
 }
 
-void imprimirLista(lista_t *lista){
 
-    int *elementos = getElementos(lista);
-    for (int i = 0; i < getSize(lista); ++i) {
-        printf("%d ", elementos[i]);
-    }
-
-}
 
 //void imprimirLista(lista *lista) {
 //    printf("Lista: ");
