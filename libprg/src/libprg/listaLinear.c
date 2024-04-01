@@ -26,6 +26,12 @@ void inserirElemento(lista_t *lista, int elemento) {
     }
 }
 
+int* getElementos(lista_t *lista){
+
+    return lista->array;
+
+}
+
 //void imprimirLista(ListaLinear *lista) {
 //    printf("Lista: ");
 //    for (int i = 0; i < lista->size; i++) {
