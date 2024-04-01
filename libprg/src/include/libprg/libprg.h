@@ -21,6 +21,7 @@ void inserirElemento(lista_t *lista, int elemento);
 int removerElemento(lista_t *lista, int elemento);
 int* getElementos(lista_t *lista);
 int getSize (lista_t *lista);
+void imprimirLista(lista_t *lista);
 
 //int buscaLinear (lista_t * lista, int valor);
 //int buscaBináriaiterativa (lista_t * lista, int valor);
